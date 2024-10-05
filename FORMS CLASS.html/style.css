@@ -1,0 +1,79 @@
+.form-container {
+    border-color: rgb(17, 5, 1);
+    border-radius: 26px;
+    background-color: chocolate;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    float: right;
+    
+
+    
+
+    
+    
+}
+.active {
+    background-color: blueviolet;
+    color: azure;
+    width: 300px;
+    border-radius: 20px;
+}
+.mine {
+    background-color: brown;
+    width: 300px;
+}
+.radio {
+    background-color: crimson;
+    width: 300px;
+    border-radius: 10px;
+}
+.radio2 {
+background-color: brown;
+color: cornsilk;
+width: 300px;
+}
+#one {
+    background-color: darkolivegreen;
+    color: azure;
+    padding: 20px 20px;
+    width: 300px;
+}
+#checkbox {
+    background-color: dodgerblue;
+    color: azure;
+    padding: 30px 30px;
+    width: 300px;
+    border-radius: 20px;
+}
+body {
+    
+    background-color: aqua;
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"]{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px;
+    background-color: darkgreen;
+    color: azure;
+
+}
+iput[type="submit"]{
+    background-color: darkblue;
+    color: azure;
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover {
+    background-color: cadetblue;
+    color: blue;
+}

@@ -9,72 +9,51 @@ body {background-color: paleturquoise;}
 h1 {color: rgb(236, 16, 16);}
 p {color: black;}
 
+.form-container {
+    background-color: chocolate;
+    border-radius: 10px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+.heading {
+    background-color: darkcyan;
+    width: 600px;
+    color: rgb(247, 243, 243);
+    font-family: 'Times New Roman';
+    float: right;
+    overflow: hidden;
+    padding-left: 20px;
+}
     </style>
 </head>
 <body>
-<h1 style="font-family:Times New Roman;"><b>  STUDENT REGISTRATION FORM</b></h1>
+    
+<h1 class="heading"><b>  STUDENT REGISTRATION FORM</b></h1>
 <H2 style="text-align: center;"> CORHOT 4</H2>
 <h3 style="text-align: center;">2024 - 2026</h3>
 
-   <form action="/action_page.php" id="form">
+<form class="form-container">
 <label for="fname">First name:</label>
 <input type="text" id="fname">
-<input type="submit" value="submit">
-   <label for="lname">Last name: </label>
+<input type="submit" value="submit"><br><br>
+<label for="lname">Last name: </label>
 <input type="text" id="lname">
 <input type="submit" value="submit"><br><br>
 <label for="Reg No">Student Reg No:</label>
 <input type="text" id="Reg No">
-<input type="submit" value="submit">
+<input type="submit" value="submit"><br><br>
 <label for="email address">Email:</label>
 <input type="text" id="Email address">
 <input type="submit" value="submit"><br><br>
 <lable for="Age" >Age:</lable>
 <input type="number" id="Age">
-<input type="submit" value="submit">
+<input type="submit" value="submit"><br><br>
 <label for="contact">Contact:</label>
 <input type="text" id="Contact">
-<input type="submit" value="submit"><br><br>
-</form>
-<br>
-
-    <h1 style="color: chocolate;"><b> MY EXPERIENCE AND PART OF THE WITU ADMISSION</b></h1>
-    <P><inserted text>Please NOTE that your admission is provisional 
-        brsubject to reporting in the first 
-        <br>week of the academic year 2024/2026 0n 20th/August/2024 and 
-        <br>subject to verification of the academic documents and the other background
-        <br> information started during the application process.
-        <br> Yu will be required to complete, and pass all CORE course and any 
-        <br>ELECTIVES (s) Courses taken at 
-        <br>any time, since you may not graduate unless you have completed the course load.
-        Please bring two recent passport size photographs both 
-        <br>of yourself and of your parent (s) or guardian, and two Photostat
-        <br>
-        <br> documents of the following documents where applicable.
-        151,   O’ Level certificate 
-        </inserted></P>
-        <small style="color: deeppink;"><b>These are my small words</b></small><br>
-<h1 style="color: blue;"><b>FORMS WITH RADIO BUTTONS</b></h1>
-<form>
-<input type="radio" id="html" name="fav_language" value="html">
-<label for="html">HTML</label><br>
-<input type="radio" id="css" name="fav_language" value="css">
-<label  for="radio" id="css">99.0 FM</label><br>
-<input type="radio" id="html" name="fav_language" value="html">
-<label for="radio" id="css">Zina FM</label>
-</form>
-
-
-<h1 style="color: blue;">FORMS WITH SEARCH BOXES</h1>
-<form>
-<input type="checkbox" id="veichle" name="veichle" value="Bike">
-<label for="veichle">I have a a bike</label><br>
-<input type="checkbox" id="veichle" name="veichle" value="Bike">
-<lable for="veichle">I do not ha a veichle</lable><br><br>
-<input type="checkbox" id="National ID" name="National ID" value="YES">
-<lable for="National ID">YES</lable>
-
-
+<input type="submit" value="submit">
 </form>
 </body>
 </html>

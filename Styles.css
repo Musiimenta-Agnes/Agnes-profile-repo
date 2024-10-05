@@ -8,7 +8,7 @@ table, tr, td, th {
  } 
 
 body {
-    background-color: rgb(251, 252, 252);
+    background-color: rgb(26, 209, 209);
 }
 h1 {
     color: brown;
@@ -22,7 +22,7 @@ tr:hover{
 button{background-color: darkgreen;}
 
 .city {
-    background-color: blue;
+    background-color: rgba(121, 121, 144, 0.822);
 }
 
 
